@@ -16,7 +16,8 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: "Riley For Congress",
-  icon: './src/favicon.svg',
+  favicon: '/src/favicon.svg',
+  touchicon: '/src/favicon.svg',
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss"
