@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 
 module.exports = {
-  siteName: "Riley For Congress",
+  siteName: "Riley Seaburg For US Congress | NY 20 | 2020",
   favicon: '/src/favicon.svg',
   touchicon: '/src/favicon.svg',
   plugins: [
