@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 
 module.exports = {
-  siteName: "Gridsome",
+  siteName: "Riley For Congress",
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss"

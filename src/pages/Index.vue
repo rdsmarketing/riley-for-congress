@@ -35,12 +35,12 @@
           class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
         >
           <div class="mb-1">
-            <p class="text-sm text-gray-600 flex items-center"></p>
-            <div class="text-gray-900 font-bold text-xl mb-2">Here's how we can win</div>
+            <p class="flex items-center"></p>
+            <div class="font-bold text-3xl mb-2">Here's how we can win</div>
             <p
-              class="text-gray-700 text-base"
+              class="text-xl font-bold text-base"
             >I'm not going to lie to you. This is going to be a fight. A real fight but I firmly believe that people speak louder than money. Our competition is flooded with dark money and will be able to outspend us 10 to 1. This is why I need your help. I'm only one man but I'm willing to be your voice.</p>
-            <h4>Join me in the fight.</h4>
+            <h4 class="text-3xl">Join me in the fight.</h4>
             <h5>Enter your information below and together we'll make real progress.</h5>
           </div>
         </div>
@@ -52,7 +52,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Riley For Congress",
+    title: "Home",
     meta: [
       { charset: "utf-8" },
       { name: "author", content: "Riley Seaburg" },
