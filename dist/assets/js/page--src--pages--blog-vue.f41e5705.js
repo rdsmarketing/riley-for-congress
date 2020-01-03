@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{230:function(t,n,e){"use strict";e.r(n);var a={},s=e(15),i=Object(s.a)(a,(function(){var t=this.$createElement,n=this._self._c||t;return n("layout",[n("h1",[this._v("My Campaign Blog")])])}),[],!1,null,"2d94b6b6",null);n.default=i.exports}}]);
