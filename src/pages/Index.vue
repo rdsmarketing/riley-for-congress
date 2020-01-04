@@ -25,14 +25,16 @@
     </div>
     <div>
       <div class="md:max-w-full w-full lg:max-w-full lg:flex">
-        <g-image
-          class="h-auto rounded w-100 flex items-center bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          alt="Riley Seaburg"
-          src="~/assets/riley.jpg"
-          width="auto"
-        />
+        <div class="relative">
+          <g-image
+            class="h-full w-full object-cover"
+            alt="Riley Seaburg"
+            src="~/assets/riley.jpg"
+            width="auto"
+          />
+        </div>
         <div
-          class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+          class="border-r border-b border-l w-3/4 border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex-col justify-between leading-normal"
         >
           <div class="mb-1">
             <p class="flex items-center"></p>
@@ -42,6 +44,7 @@
             >I'm not going to lie to you. This is going to be a fight. A real fight but I firmly believe that people speak louder than money. Our competition is flooded with dark money and will be able to outspend us 10 to 1. This is why I need your help. I'm only one man but I'm willing to be your voice.</p>
             <h4 class="text-3xl">Join me in the fight.</h4>
             <h5>Enter your information below and together we'll make real progress.</h5>
+            <SignUpForm />
           </div>
         </div>
       </div>
@@ -50,6 +53,7 @@
 </template>
 
 <script>
+import SignUpForm from "../components/SignUpForm";
 export default {
   metaInfo: {
     title: "Home",
@@ -66,6 +70,9 @@ export default {
           "Riley Seaburg, Riley for congress, who is Riley Seaburg, who is running for congress in NY 20, who's my congressman, how to beat paul tonko, is paul tonko corrupt, how to overthrough the establishment"
       }
     ]
+  },
+  components: {
+    SignUpForm
   }
 };
 </script>
