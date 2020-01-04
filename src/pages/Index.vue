@@ -34,7 +34,7 @@
           />
         </div>
         <div
-          class="border-r border-b border-l w-3/4 border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex-col justify-between leading-normal"
+          class="border-r border-b border-l md:w-3/4 border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex-col justify-between leading-normal"
         >
           <div class="mb-1">
             <p class="flex items-center"></p>
