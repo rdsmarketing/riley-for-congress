@@ -21,6 +21,7 @@
             >your</span>congressman.
           </h3>
         </div>
+      
       </div>
     </div>
     <div>
@@ -44,16 +45,17 @@
             >I'm not going to lie to you. This is going to be a fight. A real fight but I firmly believe that people speak louder than money. Our competition is flooded with dark money and will be able to outspend us 10 to 1. This is why I need your help. I'm only one man but I'm willing to be your voice.</p>
             <h4 class="text-3xl">Join me in the fight.</h4>
             <h5>Enter your information below and together we'll make real progress.</h5>
-            <SignUpForm />
           </div>
         </div>
       </div>
     </div>
+    <Issues />
   </Layout>
 </template>
 
 <script>
-import SignUpForm from "../components/SignUpForm";
+
+//import SignUpForm from "../components/SignUpForm";
 export default {
   metaInfo: {
     title: "Home",
@@ -72,8 +74,9 @@ export default {
     ]
   },
   components: {
-    SignUpForm
-  }
+   // SignUpForm
+   Issues
+ }
 };
 </script>
 

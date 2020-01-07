@@ -29,6 +29,10 @@
           to="/why"
           class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
         >Why I'm Running</g-link>
+                <g-link
+          to="/Issues"
+          class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+        >Key Issues</g-link>
         <g-link
           to="/Volunteer"
           class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
