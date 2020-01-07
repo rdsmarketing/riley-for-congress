@@ -21,7 +21,6 @@
             >your</span>congressman.
           </h3>
         </div>
-      
       </div>
     </div>
     <div>
@@ -46,6 +45,7 @@
             <h4 class="text-3xl">Join me in the fight.</h4>
             <h5>Enter your information below and together we'll make real progress.</h5>
           </div>
+          <SignUpForm />
         </div>
       </div>
     </div>
@@ -54,8 +54,8 @@
 </template>
 
 <script>
-
-//import SignUpForm from "../components/SignUpForm";
+import SignUpForm from "../components/SignUpForm";
+import Issues from "../components/Issues";
 export default {
   metaInfo: {
     title: "Home",
@@ -74,9 +74,9 @@ export default {
     ]
   },
   components: {
-   // SignUpForm
-   Issues
- }
+    SignUpForm,
+    Issues
+  }
 };
 </script>
 

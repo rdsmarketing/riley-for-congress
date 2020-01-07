@@ -8,6 +8,14 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--pages--volunteer-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Volunteer.vue")
   },
   {
+    path: "/medicare-for-all/",
+    component: () => import(/* webpackChunkName: "page--src--pages--medicare-for-all-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Medicare-For-All.vue")
+  },
+  {
+    path: "/issues/",
+    component: () => import(/* webpackChunkName: "page--src--pages--issues-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Issues.vue")
+  },
+  {
     path: "/donate/",
     component: () => import(/* webpackChunkName: "page--src--pages--donate-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Donate.vue")
   },
