@@ -37,10 +37,10 @@
           to="/volunteer"
           class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
         >Volunteer</g-link>
-        <link
-          to="https://rileyforcongress.us/blog"
+        <a
+          href="https://rileyforcongress.us/blog"
           class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-        >Blog</link>
+        >Blog</a>
       </div>
       <div>
         <g-link
