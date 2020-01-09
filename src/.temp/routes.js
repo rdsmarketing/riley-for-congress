@@ -24,10 +24,6 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--pages--donate-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Donate.vue")
   },
   {
-    path: "/blog/",
-    component: () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Blog.vue")
-  },
-  {
     path: "/about/",
     component: () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/About.vue")
   },
