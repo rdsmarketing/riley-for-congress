@@ -21,24 +21,25 @@ module.exports = {
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss"
-      /* These are the default options. You don't need to set any options to get going.
-      options: {
-        tailwindConfig: './tailwind.config.js',
-        purgeConfig: {},
-        presetEnvConfig: {},
-        shouldPurge: true,
-        shouldImport: true,
-        shouldTimeTravel: true,
-        shouldPurgeUnusedKeyframes: true,
-      }
-      */
     },
+
     {
       use: 'gridsome-plugin-gtm',
       options: {
         id: 'GTM-KFD68G3',
         enabled: true,
         debug: true
+      }
+    },
+    {
+      use: '@gridsome/source-ghost',
+      options: {
+        baseUrl: 'https://demo.ghost.io',
+        contentKey: '22444f78447824223cefc48062',
+        routes: {
+          post: '/:slug',
+          page: '/:slug'
+        }
       }
     }
   ]

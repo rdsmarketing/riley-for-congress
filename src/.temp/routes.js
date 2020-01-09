@@ -8,6 +8,10 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--pages--volunteer-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Volunteer.vue")
   },
   {
+    path: "/thank-you/",
+    component: () => import(/* webpackChunkName: "page--src--pages--thank-you-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Thank-You.vue")
+  },
+  {
     path: "/medicare-for-all/",
     component: () => import(/* webpackChunkName: "page--src--pages--medicare-for-all-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Medicare-For-All.vue")
   },
