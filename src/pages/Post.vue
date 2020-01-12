@@ -1,28 +1,30 @@
 <template>
   <Layout>
-    <div class="post-title">
-      <h1 class="post-title__text">{{ $page.post.title }}</h1>
+    <article v-for="edge in $static.allPost.edges" :key="edge.node.id">
+      <div class="post-title">
+        <h1 class="post-title__text">{{ edge.node.title }}</h1>
 
-      <PostMeta :post="$page.post" />
-    </div>
-
-    <div class="post content-box">
-      <div class="post__header">
-        <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
+        <PostMeta :post="$page.post" />
       </div>
 
-      <div class="post__content" v-html="$page.post.content" />
+      <div class="post content-box">
+        <div class="post__header">
+          <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
+        </div>
 
-      <div class="post__footer">
-        <PostTags :post="$page.post" />
+        <div class="post__content" v-html="$page.post.content" />
+
+        <div class="post__footer">
+          <PostTags :post="$page.post" />
+        </div>
       </div>
-    </div>
 
-    <div class="post-comments">
-      <!-- Add comment widgets here -->
-    </div>
+      <div class="post-comments">
+        <!-- Add comment widgets here -->
+      </div>
 
-    <Author class="post-author" />
+      <Author class="post-author" />
+    </article>
   </Layout>
 </template>
 
@@ -43,31 +45,26 @@ export default {
 };
 </script>
 
-<page-query>
+<static-query>
 {
-  
-  allGhostPost {
-    edges{
-      node{
-        id
+  posts: allGhostPost(
+      sortBy: "published_at",
+      order: DESC,
+  ) {
+    edges {
+      node {
         title
-        html
-        excerpt
-        updated_at
-        og_image
-        og_title
-        og_description
+        description: excerpt
+        date: published_at (format: "D. MMMM YYYY")
         url
-       tags {
-          meta_title
-        meta_description
-      }
-        }
+        slug
+        id
+        coverImage: feature_image
       }
     }
   }
-
-</page-query>
+}
+</static-query>
 
 <style lang="scss">
 </style>
