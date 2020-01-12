@@ -12,6 +12,10 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--pages--thank-you-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Thank-You.vue")
   },
   {
+    path: "/post/",
+    component: () => import(/* webpackChunkName: "page--src--pages--post-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Post.vue")
+  },
+  {
     path: "/medicare-for-all/",
     component: () => import(/* webpackChunkName: "page--src--pages--medicare-for-all-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Medicare-For-All.vue")
   },
@@ -22,6 +26,10 @@ export default [
   {
     path: "/donate/",
     component: () => import(/* webpackChunkName: "page--src--pages--donate-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Donate.vue")
+  },
+  {
+    path: "/blog/",
+    component: () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/src/pages/Blog.vue")
   },
   {
     path: "/about/",
