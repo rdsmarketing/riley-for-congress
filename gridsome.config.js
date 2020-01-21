@@ -34,13 +34,13 @@ module.exports = {
     {
       use: '@gridsome/source-ghost',
       options: {
-        baseUrl: 'https://rileyforcongress.us/blog',
-        contentKey: '3a7c94bf886836ab22596f15a2',
+        baseUrl: 'https://demo.ghost.io',
+        contentKey: '22444f78447824223cefc48062',
         routes: {
           post: '/:slug',
           page: '/:slug'
-        }
-      }
+       }
+     }
     }
   ]
 };
