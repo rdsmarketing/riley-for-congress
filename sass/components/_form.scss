@@ -1,0 +1,45 @@
+.form {
+    font-family: inherit;
+
+    background-color: $color-primary-dark;
+    padding: 1rem;
+    border-radius: 3px;
+    margin-right: 5rem;
+    width: 80%;
+    flex: 0 0 50%;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: $box-shadow;
+
+    &__header {
+        font-size: 3rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__subheader {
+        font-size: 1.25rem;
+        text-transform: uppercase;
+    }
+
+    & > *:not(:last-child){
+    margin: .5rem auto;}
+
+    .register {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input {
+        background-color: $color-primary;
+        border: none;
+        color: $color-white;
+
+        &:hover{
+            border: 1px solid $color-white;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+/* Set Colors */
+:root {
+    --primary-color: rgba(0, 162, 255, 0.904);
+    --secondary-color: rgba(0, 60, 255, 0.904);
+    --overlay-color: rgb(5, 104, 185);
+    --menu-speed: 0.75s;
+  }
+  
+  /* Reset View */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  /* Main Styling */
+  body {
+    margin: none;
+    color: black;
+    line-height: 2em;
+    overflow: visible;
+  }
+  
+  /* Classes */
+  
+ 
