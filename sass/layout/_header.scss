@@ -1,6 +1,7 @@
 .header {
 color: #ffffff;
   min-height: 100vh;
+  margin-bottom: 5rem;
 
   &__hero {
     background-image: url(../hero-banner.png);
@@ -9,7 +10,6 @@ color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 95vh;
     &-heading {
         margin-left: 5rem;
         margin-top: 5rem;
