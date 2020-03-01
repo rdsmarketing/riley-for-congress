@@ -36,8 +36,12 @@ export default {
 } */
 .body {
   background-color: white;
+}
 
-  overflow: hidden;
+@media (min-width: 1100px) {
+  .body {
+    overflow: hidden;
+  }
 }
 .layout {
   min-height: 100vh;
