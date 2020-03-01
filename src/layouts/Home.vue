@@ -19,13 +19,11 @@ query {
 <script>
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 export default {
   name: "default",
   components: {
     Header,
-    Navbar,
-    Footer
+    Navbar
   }
 };
 </script>
@@ -36,10 +34,5 @@ export default {
 } */
 .body {
   background-color: white;
-
-  overflow: hidden;
-}
-.layout {
-  min-height: 100vh;
 }
 </style>

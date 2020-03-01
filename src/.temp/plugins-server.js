@@ -1,5 +1,5 @@
-import plugin_gridsome_plugin_tailwindcss_5 from "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/node_modules/gridsome-plugin-tailwindcss/gridsome.client.js"
-import plugin_gridsome_plugin_gtm_6 from "/home/footbllman62/Documents/programming/vuejs/gridsome/riley-for-congress/node_modules/gridsome-plugin-gtm/gridsome.client.js"
+import plugin_gridsome_plugin_tailwindcss_5 from "/home/footbllman62/Desktop/riley-for-congress-html/gridsome/riley-for-congress/node_modules/gridsome-plugin-tailwindcss/gridsome.client.js"
+import plugin_gridsome_plugin_gtm_6 from "/home/footbllman62/Desktop/riley-for-congress-html/gridsome/riley-for-congress/node_modules/gridsome-plugin-gtm/gridsome.client.js"
 
 export default [
   {
