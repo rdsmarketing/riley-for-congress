@@ -1,7 +1,7 @@
 <template>
   <header class="header flex flex-col items-center justify-center">
     <div class="header-container">
-      <h1 class="text-center text-white text-4xl pb-4 pt-4">
+      <h1 class="text-center text-white text-3xl pb-4 pt-4">
         Riley Seaburg For US Congress NY's 20th District
       </h1>
     </div>
