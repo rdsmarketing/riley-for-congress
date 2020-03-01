@@ -1,11 +1,11 @@
 <template>
   <header class="header flex flex-col items-center justify-center">
     <div class="header-container">
-      <h1 class="text-center text-white text-5xl pt-4">
+      <h1 class="text-center text-white md:text-5xl sm:text-3xl pt-4">
         Riley Seaburg For US Congress NY's 20th District
       </h1>
     </div>
-    <div class="hero-container flex items-center justify-around w-full">
+    <div class="hero-container flex flex-col md:flex-row items-center justify-around w-full">
       <div class="img-container h-auto ">
         <g-image
           src="~/assets/riley.jpg"
@@ -37,6 +37,12 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+@media (min-width: 1100px) {
+    .header {
+
   max-height: 100vh;
+    }
 }
 </style>
