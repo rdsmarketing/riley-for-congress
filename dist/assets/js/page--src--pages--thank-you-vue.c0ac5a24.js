@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{262:function(t,e,n){"use strict";n.r(e);var s={},c=n(15),a=Object(c.a)(s,(function(){var t=this.$createElement,e=this._self._c||t;return e("Layout",[e("h1",{staticClass:"text-center pt-10 text-4xl"},[this._v("Thank You!")])])}),[],!1,null,"ce7b0bfc",null);e.default=a.exports}}]);
