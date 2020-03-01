@@ -5,8 +5,8 @@
     method="POST"
     class="w-full"
   >
-     <h3 class="text-center font-sans text-xl">Together we can create a more meaningful future</h3>
-         <p class="text-center font-sans pb-2">Fill Out The Form Below</p>
+     <h3 class="text-center font-sans p-4 text-3xl">Together we can create a more meaningful future</h3>
+         <p class="text-center text-2xl font-sans pb-2">Fill Out The Form Below</p>
     <div class="flex flex-wrap -mx-3 mb-6">
          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <label
